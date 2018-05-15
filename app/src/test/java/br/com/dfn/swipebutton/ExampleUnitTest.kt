@@ -1,4 +1,4 @@
-package br.com.dfn.swiperbutton
+package br.com.dfn.swipebutton
 
 import org.junit.Test
 

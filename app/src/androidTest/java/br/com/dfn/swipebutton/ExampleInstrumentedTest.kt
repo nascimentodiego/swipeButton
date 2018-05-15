@@ -1,4 +1,4 @@
-package br.com.dfn.swiperbutton
+package br.com.dfn.swipebutton
 
 import android.support.test.InstrumentationRegistry
 import android.support.test.runner.AndroidJUnit4

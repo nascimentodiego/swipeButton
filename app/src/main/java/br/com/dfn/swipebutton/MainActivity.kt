@@ -1,4 +1,4 @@
-package br.com.dfn.swiperbutton
+package br.com.dfn.swipebutton
 
 import android.animation.Animator
 import android.content.res.Resources
