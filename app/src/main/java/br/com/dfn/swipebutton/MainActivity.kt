@@ -13,6 +13,7 @@ import kotlinx.android.synthetic.main.activity_main.*
 
 class MainActivity : AppCompatActivity() {
 
+    var currentPosition = Direction.LEFT
     override fun onCreate(savedInstanceState: Bundle?) {
         super.onCreate(savedInstanceState)
         setContentView(R.layout.activity_main)
@@ -65,6 +66,9 @@ class MainActivity : AppCompatActivity() {
     }
 
     private fun startAnimation(moveTo: Float, direction: Direction) {
+        if (currentPosition == direction) return else currentPosition = direction
+
+
         val animatorListener = object : Animator.AnimatorListener {
             override fun onAnimationRepeat(animation: Animator?) {
             }
